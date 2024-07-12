@@ -1,0 +1,26 @@
+What is the difference between 
+useEffect and useLayoutEffect? 
+
+Answer:
+---------------useEffect will run after the component is mounted on the dom 
+A useEffect runs asynchronously 
+after the paint has been committed to
+ the screen, 
+///// "paint" refers to the process where the browser renders the visual representation of your components to the screen
+while useLayoutEffect runs synchronously
+before the paint. This means 
+
+useLayoutEffect 
+---------------useLayoutEffect will run before the component is mounted on the dom 
+
+can block the visual update, 
+which is useful for measuring 
+layout or updating the DOM 
+before the browser paints.
+
+examples : when measuring DOM elements, or animating or transitioning elements.
+
+https://blog.logrocket.com/react-useeffect-vs-uselayouteffect-hooks-examples/
+
+
+read this blog if you has any dought in the useLayout effect
