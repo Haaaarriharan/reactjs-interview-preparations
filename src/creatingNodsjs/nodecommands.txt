@@ -1,0 +1,29 @@
+creating an express js projects with commands
+
+node -v
+npm -v
+
+mkdir my-express-app
+cd my-express-app
+
+npm init -y
+
+npm install express
+
+touch app.js
+
+const express = require('express');
+const app = express();
+
+// Define a route handler for the default home page
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
+
+// Start the server on port 3000
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});
+
+node app.js

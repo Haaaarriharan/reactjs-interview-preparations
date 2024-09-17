@@ -1,0 +1,48 @@
+const arr = ["one" , "two" , "three"]
+const str = "hello"
+
+const val1 = arr.includes("on")   // false 
+const val2 = arr.includes("onetwo")    // false  
+const val3 = str.includes("ll")    // false
+
+console.log(val1 , val2 , val3)
+
+----------------------------------------
+function val() {
+return 4    
+}
+
+function val1() {
+return 5    
+}
+
+let a = (val(), val1()) // paranthesis
+
+console.log(a) // 5
+
+-------------------------------------------------
+
+let a = 10
+let b = new Number(10)
+
+console.log(a === b) // new key word refers to an objects
+------------------------------------
+
+flattern array functionalities
+
+---------------------------------------------
+
+react vs angular 
+
+react will flow through the unidirectional and the angular will multi directional
+
+// web workers - A web worker is a JavaScript that runs in the background
+// formatting text in the html - 
+// <meter>: Used for scalar values within a known range (e.g., temperature, rating, battery level).
+// <progress>: Used to indicate the progress of a task (e.g., file download, upload progress).
+// required attribute uses 
+// flattern array
+// the emphasize tags - <em>: Emphasizes text with contextual importance, typically italicized.
+// empty tags in the html <br/>
+// div and the sapn tags 
+// diff flex and column 

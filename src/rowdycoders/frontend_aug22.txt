@@ -1,0 +1,81 @@
+// need to check the output 
+console.log("dsdsbdhshd" , 2**2)
+
+"use strict" ==> when we use the strict mode
+function test(){
+ newVal = 12
+}
+test()
+
+
+{}==={}
+{}=={}
+
+// both are reference so the output is false
+
+let a ={
+    name : "hari"
+}
+
+// because the we are creating a reference so the value will be not changed
+
+let b = {
+    ...a
+}
+
+b.name = "haran"
+
+===============================
+
+function newValFunction(data) { 
+if(data == {"name" : "hari"}) {
+return "hari is hari"
+} else if (data === {"name" : "hari"}) {
+return "hari is not a hari"
+} else {
+    return "no one is found"
+}
+
+}
+
+newValFunction({name : "hari"})
+
+log +true , !'test'
+
+var a={}
+var b={key: "b"}
+var c={key : "c"}
+
+a[b]= 600
+b[c] = 700
+
+log it with a multiple values so that they can evaluate with a multiple vales
+
+
+let str = "abc"
+let str2 = 123456
+
+result like : a1b2c3456
+
+function evaluation() {
+    let str = "abc"
+let str2 = 123456
+
+let newString = str.split("")
+let newString1 = str2.toString().split("")
+let evaluateVal  = newString1.length > newString.length ? newString1 : newString
+let mergeVal = ""
+for(let i=0;i < evaluateVal?.length; i++ ){
+    console.log("fjdnjf", newString1[i])
+    if(newString1[i]) mergeVal=mergeVal+newString1[i]
+     if(newString[i])  mergeVal=mergeVal+newString[i]
+    
+}
+return mergeVal
+}
+
+console.log("evaluations" , evaluation())
+
+
+
+

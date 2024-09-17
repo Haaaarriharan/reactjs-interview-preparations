@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-	
+import React, { useState } from "react";
+
 function Exercise7() {
   const [count, setCount] = useState(0);
 
@@ -15,5 +15,5 @@ function Exercise7() {
     </div>
   );
 }
- 
+
 export default Exercise7;

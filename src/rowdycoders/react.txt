@@ -1,0 +1,16 @@
+suspense in react 
+
+What is Suspense Component in React?
+Suspense is a React component that lets you handle asynchronous operations more effectively, 
+displaying fallback UI while waiting for code or data to load.
+
+React's Diff Algorithm ? 
+React employs a diff algorithm that compares the previous and current versions of the virtual DOM to
+ determine the minimal set of changes needed to update the actual DOM.
+
+React Batching?
+React automatically batches state updates during event handlers,
+lifecycle methods, and useEffect hooks to optimize performance by reducing the number of renders.
+
+React hijacking ?
+Render hijacking in React is a concept where a higher-order component (HOC) 

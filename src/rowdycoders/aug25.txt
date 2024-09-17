@@ -1,0 +1,36 @@
+why we are using the virtual dom for the comparision why wont we using real dom for it?
+ reason : 
+ realdom : has 1000 od property
+ virtualdom : 8 property
+
+ comparision will be easy
+
+dont use async inside the useEffect()
+
+useEffect(async () => {
+  const data = await fetchData();
+  setData(data);
+}, []);
+
+This is incorrect because the async function returns a promise, which is not what useEffect expects.  
+
+when the curser is moving to another place the backgroung of the pointer need to be changed?
+
+---------------------------------------------two sum altered...
+
+const twoSum = function (nums, target) {
+  var obj = {};
+//   through the objects we can reduce the iterations......
+// optimizing the performance of the two sum problem....
+  for (let i = 0; i < nums.length; i++) {
+   if(obj[target - nums[i]] ) {
+       return [obj[target - nums[i]] , i]
+   } else {
+       obj[nums[i]] = i
+   }
+  }
+  
+  return obj
+};
+
+console.log(twoSum([2, 7, 11, 15], 26));

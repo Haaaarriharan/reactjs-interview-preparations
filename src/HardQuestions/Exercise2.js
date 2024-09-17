@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function Exercise2() {
   const [text, setText] = useState("Hello");

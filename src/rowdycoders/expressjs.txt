@@ -1,0 +1,9 @@
+Serving static files in an Express application is common for several reasons:
+
+* Delivering Assets to Clients: Static files include assets like images, CSS, 
+JavaScript files, fonts, and HTML pages. Serving these directly allows clients
+ (browsers) to load and render the web page properly.
+
+* Performance: By serving static files directly, you reduce the load on your server
+ since these files don't require processing by the backend. They can be served 
+ quickly and efficiently.

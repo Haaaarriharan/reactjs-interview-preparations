@@ -1,0 +1,72 @@
+-- Debugger in the js
+ The remaining section of the code should stop execution before moving on to the next line while debugging.
+
+-- exec and test 
+
+test () and exec () are RegExp expression methods used in javascript.
+
+ We'll use exec () to search a string for a specific pattern, and if it finds 
+ it, it'll return the pattern directly; else, it'll return an 'empty' result.
+
+ We will use a test () to find a string for a specific pattern. It will return 
+ the Boolean value 'true' on finding the given text otherwise, it will return 'false'
+
+ --Scope Chain: 
+ JavaScript engine also uses Scope to find variables.
+
+ -- object protoypes 
+ All javascript objects inherit properties from a prototype
+
+   Math objects inherit properties from the Math prototype 
+ Array objects inherit properties from the Array prototype.
+
+ --callback function 
+   Functions that are used as an argument to another function are called callback functions
+
+-- constructor
+  Constructor functions are used to create objects in javascript. 
+
+--Which method is used to retrieve a character from a certain index?
+ charAt() 
+
+-- creating objects method 
+Object.
+using Class.
+using Function.
+Object Constructor.
+
+------------meaning of inheritance is---------relation
+
+--Difference between prototypal and classical inheritance
+
+prototypal inhertance :
+* following languages js
+
+syntax : Object.setPrototypeOf(para1,para2) , Object.getPrototypeOf(para1,para2) 
+CODE ---------------------------------------------------
+let newVal = {
+    name : "hari",
+    id: 12211
+}
+let newVal1 = {}
+Object.setPrototypeOf(newVal,newVal1)
+
+console.log(newVal) // {}
+console.log(newVal1.name) // hari
+
+* we could be able to inherit the objects from the one to another 
+
+classical inhertance :
+* following languages java ,c++, c 
+* we could not be able to inherit the objects from the one to another 
+
+
+
+What do you mean by JavaScript Design Patterns?
+That allows the creation of new objects by copying (or "cloning") an existing object
+
+They are divided mainly into 3 categories
+
+1.Creational Design Pattern
+2.Structural Design Pattern
+3.Behavioral Design Pattern.

@@ -1,0 +1,141 @@
+
+What happens when we call a website from browser?
+- DNS Resolution: Domain Name System
+* first step is to convert a domian into a ip address then it will 
+check any chache is availbele or not if it is not available then it 
+the quries the new ip
+- TCP/IP Connection:
+- HTTP/HTTPS Request:
+- Server Processing:
+
+
+How the web page is rendered in browser?
+- Parsing the HTML
+- Parsing the CSS
+- JavaScript Execution
+- Creating the Render Tree
+- Painting
+- Repaints and Reflows
+
+Core Web Vitals ?
+Core Web Vitals are a set of performance metrics defined by Google
+
+hydration ? 
+Hydration is the process of integrating JavaScript with a rendered HTML page and repainting it on the browser.
+
+type of rendering?
+https://web-rendering-demo.vercel.app/isr
+
+CSR , SSR , SSG , ISR
+• Predictable State Management: Easier to reason about application state and track changes.
+incremental static regeneration : news web sites
+
+SSG is specifically useful for websites with content that doesn’t change frequently, such as blogs, marketing websites, or documentation sites
+
+https://medium.com/@khushbuchoksi/what-are-csr-ssr-ssg-and-isr-d59201e3b060#:~:text=Static%20Site%20Generation%20(SSG)%20pre,load%20and%20improving%20user%20experience.
+
+Tree Shaking in js?
+Tree shaking is an optimization technique used in frontend development to reduce the size of a JavaScript bundle by eliminating code that is not actually used or needed in the final application
+
+What are some commonly used static site generators?
+Next.js, Gatsby, Hugo
+
+Coercion
+Coercion in JavaScript refers to the process of converting a value from one type to another
+let result = '5' + 3; // '53'
+
+Event Flow in the DOM? 
+
+- The capturing phase
+- The target phase
+- The bubbling phase
+
+
+What is Defer and async?
+* When we include a script with the async attribute, it tells the browser to download
+ the script asynchronously while parsing the HTML document. The script is downloaded 
+in the background without blocking the HTML parsing process.
+
+<script src="example.js" async></script>
+
+* With defer,the script executes only after the HTML document is fully parsed,
+  but before the DOMContentLoaded event.
+
+What is PreventDefault ? 
+preventDefault is used to stop the browser’s default action for a given event.
+It is commonly used in form submissions, link clicks, keyboard events, and more.
+
+what is event delegation?
+Event delegation is a technique in JavaScript that allows you to manage events 
+efficiently by taking advantage of event bubbling
+
+* Pure Components & Impure Components in React
+
+key frammes in the css - is used to perform animation 
+
+redux middleware : allows developers to customize and enhance the behavior of Redux's dispatch function
+
+===========================================================================
+
+function MyMapp (callback) {
+    let newArr = []
+    
+     console.log("dsnsnnjsnd" , this, callback())
+    // this will give the length and calback will gives the function accesa
+    for(let i =0 ; i < this.length;i++ ){
+        newArr.push(callback(this[i],i,this))
+        
+    } 
+    return newArr
+}
+
+Array.prototype.MyMapp = MyMapp
+
+console.log([1,2,3,4].MyMapp((a) => a * 3))
+
+===============================================================================
+
+// plyfills for the map is similar to the use state --------
+function MyMapp (callback) {
+    let newArr = []
+    for(let i =0 ; i < this.length;i++ ){
+        
+        if(callback(this[i]))  newArr.push(this[i])
+        
+    }
+    return newArr
+}
+
+Array.prototype.MyMapp = MyMapp
+
+console.log([1,2,3,4].MyMapp((a) => a > 3))
+
+==================================================
+poly fills for the object entries
+if (!Object.entries) {
+    Object.entries = function(obj) {
+        // Create an empty array to hold the key-value pairs.
+        let ownProps = Object.keys(obj); // Get all the object's own keys.
+        let result = []; // Initialize the array to hold key-value pairs.
+
+        // Loop over the keys and push key-value pairs as arrays into the result.
+        for (let i = 0; i < ownProps.length; i++) {
+            result.push([ownProps[i], obj[ownProps[i]]]); // Push key-value pairs.
+        }
+
+        return result; // Return the final array of key-value pairs.
+    };
+}
+
+// Example usage:
+const obj = { a: 1, b: 2, c: 3 };
+console.log(Object.entries(obj)); 
+
+
+let suppose we are running a useEffect for every millisecound ,
+ which means 1000times per secound and updating the count for every millsecound .
+how many times ui will repaints the screen  in this scenario ? 
+
+The UI will repaint around 60 times per second regardless of the fact that the 
+useEffect is running 1000 times per second. This is due to the browser's frame 
+rate limit and React's efficient rendering process, which minimizes unnecessary re-renders.

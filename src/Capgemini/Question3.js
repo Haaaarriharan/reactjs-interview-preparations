@@ -11,10 +11,7 @@ import React, { useState, useEffect } from "react";
 
 function ErrorBoundary({ children }) {
   const [error, setError] = useState(null);
-  const handleError = () => {
-    setError("Something went wrong!");
-  };
-
+  // example the white screen error
   return (
     <>
       {error ? (

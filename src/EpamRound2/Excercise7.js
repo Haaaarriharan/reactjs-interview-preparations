@@ -1,2 +1,2 @@
-//List and potentially elaborate on optimization techniques for
+// List and potentially elaborate on optimization techniques for
 // web applications from a developer's perspective

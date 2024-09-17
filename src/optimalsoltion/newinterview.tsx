@@ -2,7 +2,7 @@
 // need to learn the ts function ............................
 // need to learn micro services in express js ...............
 
-//CIRCULAR DEPENDENCY
+//CIRCULAR DEPENDENCY INJECTIONS
 // circular dependency occurs when two or more modules or components depend on each other directly or indirectly
 // a.service.ts
 // @Injectable()

@@ -1,4 +1,6 @@
 What are stateless components in react ?
+- class component is state full 
+- functional are the state less components
 
 Stateless components, essentially functional components, 
 don't manage internal state. They simply take props as 
