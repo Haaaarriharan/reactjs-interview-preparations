@@ -1,0 +1,6 @@
+Greedy (n log n) or O(n).
+
+* The search for optimal solution is done without repetition – the algorithm runs once.
+* It is straightforward and easy to implement.
+
+refer this documentations : https://www.freecodecamp.org/news/greedy-algorithms/

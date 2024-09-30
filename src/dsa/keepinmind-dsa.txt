@@ -1,0 +1,75 @@
+
+1. Understand the Problem Statement:
+* Read carefully :  Make sure you understand the input, output, and constraints.
+* Identify the goal :  What exactly is the problem asking for? This might be finding 
+the maximum/minimum, counting occurrences, sorting, or optimizing performance.
+* Consider corner cases like empty inputs, negative numbers, large values, etc.
+
+2. Analyze the Input and Output:
+* What is the size of the input? (This affects the choice of algorithm.)
+* Are there any restrictions (sorted arrays, distinct elements)?
+* What is the expected output format?
+
+3.Choose a Suitable Data Structure:
+* Arrays
+* Hashmaps/Sets
+* Stacks/Ques
+* Trees/Graphs
+
+4. Identify the Algorithmic Approach:
+* Brute force: Try every possible solution (only if the input size is small).
+* Greedy algorithm: Make local optimal choices at each step.
+* Divide and conquer: Split the problem into smaller subproblems, solve them, and combine results.
+
+5. Plan the Solution:
+6. Implement the Solution:
+7. Optimize the Solution:
+8.  Test the Solution Extensively:
+
+Key Algorithms and Data Structures to Know:
+
+Sorting Algorithms:
+
+Bubble Sort, Selection Sort: Basic sorting algorithms (O(n²))
+Merge Sort, Quick Sort: Divide and conquer algorithms (O(n log n)).
+
+Searching Algorithms:
+* Linear Search: Simple O(n) search through a collection.
+* Binary Search: Efficient O(log n) search in a sorted array.
+* Depth-First Search (DFS): Recursive or stack-based search in trees and graphs.
+* Breadth-First Search (BFS): Queue-based search for level-order traversal in trees and shortest paths in unweighted graphs.
+
+Dynamic Programming (DP):
+* Memoization and Tabulation: Storing subproblem results to avoid recomputation.
+Common DP problems:
+* Knapsack problem
+* Fibonacci numbers
+* Longest Increasing Subsequence (LIS)
+* Matrix chain multiplication
+
+Greedy Algorithms:
+* Make the locally optimal choice at each step.
+Common problems:
+* Activity Selection
+* Huffman Coding
+* Kruskal’s and Prim’s algorithms (for Minimum Spanning Tree)
+
+Recursion:
+Solving problems by breaking them into smaller instances of the same problem.
+* Backtracking: Like in solving puzzles or generating permutations.
+* Divide and Conquer: Like merge sort or quicksort.
+
+Graph Algorithms:
+* Graph representation: Adjacency matrix/list.
+* DFS and BFS: For exploring graphs.
+* Dijkstra’s Algorithm: Shortest path in weighted graphs.
+* Bellman-Ford, Floyd-Warshall: Handling negative weights or finding all-pairs shortest paths.
+
+Tree Data Structures:
+* Binary Trees, Binary Search Trees (BSTs).
+* Heaps: For priority queues (e.g., in Dijkstra's algorithm).
+* Trie: Efficiently storing strings for prefix searches.
+
+Sliding Window:
+* Useful for finding subarrays in an array with specific properties (e.g., max sum subarray).
+

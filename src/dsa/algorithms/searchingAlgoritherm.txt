@@ -1,0 +1,24 @@
+Linear Search 
+ * the linear search is also called as sequential search
+ * using the traditional for loop for finding the values in the array is the linear search
+
+Binary Search
+ * binary search is a searching technique which work on the divide and the conquer approach
+ * if is used to search any element in the sorted array
+
+Depth first search?
+>>>>> pre order traversal
+* read the data of the node * visit the left sub tree * visit the right sub tree
+>>>>> in order traversal
+* visit the left sub tree * read the data of the node * visit the right sub tree
+>>>>> post order traversal
+* visit the left sub tree * visit the right sub tree * read the data of the node 
+
+need to work practically with some realtime problems
+
+Breadth first search? 
+
+need to read more about the depth first search
+
+
+why we want to learn data structures? 

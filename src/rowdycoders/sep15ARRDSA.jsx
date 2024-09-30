@@ -19,7 +19,7 @@ function sep15ARRDSA() {
 
   // Example usage
   const arr = [1, 2, 4, 0, 0, 7, 8];
-  console.log(findMissingNumber(arr)); // Output: 5
+  console.log(findMissingNumber(arr));
 
   //  Maximum Subarray (Kadane’s Algorithm) in js need to watch the vedios
   //  Merge Two Sorted Arrays need to watch vedios
@@ -29,7 +29,11 @@ function sep15ARRDSA() {
 
   function findsomeinnovations() {
     // problem for finding the global profit
-
+    // problem for finding the global profit
+    // [1,1,1,1]
+    //k=2 3 combo
+    //k=3 2 combo
+    // please understand the flow properly
     let newArr = [1, 1, 1, 1, 1];
     let k = 3;
     let count = 0;

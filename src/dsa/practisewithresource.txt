@@ -1,0 +1,3 @@
+LeetCode, HackerRank, Codeforces: These platforms offer a variety of problems to practice.
+GeeksforGeeks: For algorithm and data structure explanations.
+Cracking the Coding Interview: A great resource for common DSA problems and patterns.

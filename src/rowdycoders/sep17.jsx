@@ -56,6 +56,41 @@ function sep17() {
   );
 
   // (5 , 2)(2,3)(6, 1)
+
+  // Floor in a Sorted Array
+
+  function findFloorSortedArr() {
+    // Given a sorted array and a value x, the floor of x is the largest element in the array
+    //  smaller than or equal to x. Write efficient functions to find the floor of x
+    let arr = [1, 2, 8, 10, 10, 20, 19];
+    let sortedArr = arr.sort((a, b) => a - b);
+    let x = 5;
+    let unidentifiedVal = null;
+    for (let i = 0; i < sortedArr.length; i++) {
+      if (arr[i] < x) {
+        unidentifiedVal = arr[i];
+      }
+    }
+    return unidentifiedVal;
+  }
+  console.log("Try programiz.pro", findFloorSortedArr());
+
+  //   Find a pair with the given difference
+  function findFloorSortedArr() {
+    // Given an unsorted array and a number n, find if there exists a pair of
+    // elements in the array whose difference is n.
+    let arr = [5, 20, 3, 2, 50, 80];
+    let n = 78;
+    for (let i = 0; i < arr.length; i++) {
+      for (let j = 0; j < arr.length; j++) {
+        if (arr[i] - arr[j] === n) {
+          return [arr[i], arr[j]];
+        }
+      }
+    }
+    return "no pair";
+  }
+  console.log("Try programiz.pro", findFloorSortedArr());
   return <div>sep17</div>;
 }
 
