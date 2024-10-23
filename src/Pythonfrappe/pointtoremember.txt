@@ -1,0 +1,93 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+arr = [
+    {
+        "product_id": "PROD-001",
+        "name": "Laptop",
+        "price": 75000,
+        "stock": 50,
+        "category": "Electronics"
+    },
+    {
+        "product_id": "PROD-002",
+        "name": "Smartphone",
+        "price": 35000,
+        "stock": 100,
+        "category": "Electronics"
+    },
+    {
+        "product_id": "PROD-003",
+        "name": "Desk Chair",
+        "price": 5000,
+        "stock": 25,
+        "category": "Furniture"
+    },
+    {
+        "product_id": "PROD-004",
+        "name": "Electric Kettle",
+        "price": 1500,
+        "stock": 70,
+        "category": "Kitchen Appliances"
+    },
+    {
+        "product_id": "PROD-005",
+        "name": "Bookshelf",
+        "price": 6000,
+        "stock": 10,
+        "category": "Furniture"
+    }
+]
+# to find sum of its value we can work like this
+toCalculateSum = sum([x["price"] for x in arr])
+sum1 = 0
+for x in arr:
+    sum1 += x["stock"]
+
+
+print("Try programiz.pro", toCalculateSum , sum1)
+**************************************************************************************
+
+class Car:
+    def __init__(self, make, model, year):
+        self.name = make
+        self.model = model
+        self.price = year
+    def display_info(self):
+        return f"{self.name} {self.model} {self.price}"
+
+# Array of Car objects
+cars = [
+    Car("Toyota", "Corolla", 2020),
+    Car("Honda", "Civic", 2019),
+    Car("Ford", "Mustang", 2021)
+]
+
+item = {
+    "name": "Updated Product A",
+    "price": 120,
+    "category": "Electronics"  # This attribute doesn't exist in the Product 
+}
+
+for car in cars:
+    print(car.display_info())
+
+get_one_doc = cars[0]  # Get the first product
+
+print(cars)
+for x in item:
+    if hasattr(get_one_doc , x):
+        setattr(get_one_doc, x , item[x])
+    
+print(f"Name: {get_one_doc.name}, Price: .{get_one_doc.price}"  )
+
+***********************************************************************
+
+payload = {
+    'product': ['item1', 'item2', 'item3']
+}
+
+# Checking if payload.product is a list and if it has items
+if isinstance(payload['product'], list) and len(payload['product']):
+    print("payload.product is a non-empty list")
+else:
+    print("payload.product is either not a list or it's an empty list")
