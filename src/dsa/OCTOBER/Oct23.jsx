@@ -73,6 +73,27 @@ function Oct23() {
 
   // console.log("arr2", arr2, arr2.concat(newArr));
 
+  // chunk problem with more clarity
+  function chunkArr() {
+    let arr = [1, 2, 3, 4, 5];
+    let size = 4;
+    let newModifiedArr = [];
+    let tempArr = [];
+    for (let i = 0; i < arr.length; i++) {
+      tempArr.push(arr[i]);
+      //   when it goes to a last index we need to push the values in the array
+      if (tempArr.length === size || arr.length - 1 === i) {
+        newModifiedArr.push(tempArr);
+        tempArr = [];
+      }
+
+      // if(tempArr.length === size && )
+    }
+
+    return newModifiedArr;
+  }
+  console.log("Try programiz.pro", chunkArr());
+
   return <div>Oct23</div>;
 }
 
