@@ -39,8 +39,13 @@ Object Constructor.
 
 --Difference between prototypal and classical inheritance
 
+inheritance - parambarai...
+
 prototypal inhertance :
+* JavaScript uses prototype inheritance to allow objects to share properties and methods. 
 * following languages js
+
+Object.prototype.name = "hari"
 
 syntax : Object.setPrototypeOf(para1,para2) , Object.getPrototypeOf(para1,para2) 
 CODE ---------------------------------------------------
@@ -70,3 +75,5 @@ They are divided mainly into 3 categories
 1.Creational Design Pattern
 2.Structural Design Pattern
 3.Behavioral Design Pattern.
+
+

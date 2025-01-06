@@ -1,11 +1,14 @@
 Type of Api
 
-REST APIS 
-SOAP APIS
-PUBLIC APIS
-PRIVATE APIS
-GRAPH QL
-OPEN APIS
+REST APIS - Representational State Transfer APIs - HTTP methods like GET, POST, PUT, DELETE.
+SOAP APIS - Simple Object Access Protocol APIs - Operates over multiple protocols (HTTP, SMTP, TCP).
+Applications requiring high security and reliability, such as payment gateways or enterprise-level integrations.
+Example: PayPal's payment processing API.
+
+PUBLIC APIS - Examples: Google Maps API, OpenWeatherMap API.
+PRIVATE APIS - Private APIs are restricted to use within a specific organization or a limited group of developers.
+GRAPH QL - GraphQL is a query language for APIs that allows clients to request specific data
+OPEN APIS - Open APIs (also known as External or Open Standards APIs) are publicly available APIs with minimal restrictions.
 
 why js is called objects oriented programming languages?
   JavaScript is called an object-oriented programming (OOP) language because it uses 
@@ -25,7 +28,7 @@ console.log(iterator.next()); // { value: 1, done: false }
 console.log(iterator.next()); // { value: 2, done: false }
 console.log(iterator.next()); // { value: 3, done: false }
 console.log(iterator.next()); // { value: undefined, done: true }
-
+  
 A generator is a special type of function that can pause its execution and resume later
 
 function* myGenerator() {

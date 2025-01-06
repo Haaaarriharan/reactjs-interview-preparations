@@ -1,12 +1,12 @@
 import "./App.css";
-import Nov18 from "./dsa/NOVEMBER/Nov18";
-import Nov25 from "./dsa/NOVEMBER/Nov25";
+import Dec26 from "./dsa/DECEMBER/Dec26";
+import Dec27 from "./dsa/DECEMBER/Dec27";
 
 function App() {
   return (
     <>
       {/* <h1> to CareerWithVasanth Youtube channel</h1> */}
-      <Nov25 />
+      <Dec27 />
     </>
   );
 }
