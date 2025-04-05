@@ -38,6 +38,8 @@ function Sep24() {
     // update result if we get a smaller value
     for (let i = 0; i < arr.length; i++) {
       for (let j = i + 1; j < arr.length; j++) {
+        newObj = {} // due to this statement this thing will print only  the value is closest to the 0
+
         let sum = arr[i] + arr[j];
         // Math.abs will change the values to the
         // - to +

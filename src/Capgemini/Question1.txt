@@ -5,4 +5,4 @@ Imagine building UIs like Lego sets. Each Lego piece is a
  part of your UI. You can snap these components together to 
  create complex interfaces dynamically. React helps you 
  manage these components efficiently and keeps your UI in 
- sync with your data. 
+ sync with your data.

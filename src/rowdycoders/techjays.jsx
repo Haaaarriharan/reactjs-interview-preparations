@@ -66,7 +66,8 @@ function techjays() {
         return arr[i];
       }
     }
-  }
+  }           console.log("dmsmkndks")
+
   console.log("Try programiz.pro", SortArr([10, 20, 15, 2, 23, 90, 90]));
 
   //FIND A PEAK ELEMENT WHICH IS NOT SMALLER THAN ITS NEIGHBOURS

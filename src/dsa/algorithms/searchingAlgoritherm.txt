@@ -20,5 +20,4 @@ Breadth first search?
 
 need to read more about the depth first search
 
-
-why we want to learn data structures? 
+why we want to learn data structures?

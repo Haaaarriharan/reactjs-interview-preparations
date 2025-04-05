@@ -95,7 +95,7 @@ console.log([1,2,3,4].MyMapp((a) => a * 3))
 
 ===============================================================================
 
-// plyfills for the map is similar to the use state --------
+// plyfills for the map is similar to the filter --------
 function MyMapp (callback) {
     let newArr = []
     for(let i =0 ; i < this.length;i++ ){

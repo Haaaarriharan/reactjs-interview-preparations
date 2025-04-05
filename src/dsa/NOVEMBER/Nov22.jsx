@@ -9,7 +9,7 @@ function Nov22() {
 
   // in java script there is no seperate data type for an array*********************************************************************************
 
-  // type of null is object it is a bug in the js for long time it need to be fixed actully ***************************************************
+  // type of null is objectgit commit -m "creating a readme file when the concept of inheritance and the polimorphism is missed" it is a bug in the js for long time it need to be fixed actully ***************************************************
   // type of null is a null
 
   // we going to see how the call apply  and bind works in the js

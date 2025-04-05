@@ -3,7 +3,7 @@ const str = "hello"
 
 const val1 = arr.includes("on")   // false 
 const val2 = arr.includes("onetwo")    // false  
-const val3 = str.includes("ll")    // false
+const val3 = str.includes("ll")    // true
 
 console.log(val1 , val2 , val3)
 
@@ -26,6 +26,7 @@ let a = 10
 let b = new Number(10)
 
 console.log(a === b) // new key word refers to an objects
+the new key refers to an objects so the condition willl be false
 ------------------------------------
 
 flattern array functionalities

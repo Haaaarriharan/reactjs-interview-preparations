@@ -41,6 +41,7 @@ Searching Algorithms:
 
 Dynamic Programming (DP):
 * Memoization and Tabulation: Storing subproblem results to avoid recomputation.
+
 Common DP problems:
 * Knapsack problem
 * Fibonacci numbers
@@ -49,6 +50,7 @@ Common DP problems:
 
 Greedy Algorithms:
 * Make the locally optimal choice at each step.
+
 Common problems:
 * Activity Selection
 * Huffman Coding

@@ -1,0 +1,30 @@
+# we can modify already added sentence it will be used in the notification message
+firstname=  "hari"
+lastname  = "haran"
+
+print(firstname , "is the best in the world" , lastname ,  sep="|")
+print(firstname , "is the best in the world" , lastname ,  end="|")
+
+
+
+
+# HELP IT IS A THING WHICH IS USED FOR THE THAT WE USED TO KNOW ABOUNT THE FUNCTION DEFINITION AT THE TIME WE CAN USE THIS
+def newfn():
+    """
+    this is gouping this is good feature 
+      for the function and its definition
+    """
+    return "nothing"
+    
+    
+help(newfn)
+
+
+# MAP FUNCTION WE AOREADY NOW A MAP FUNCTION IN THE JS SAME AS LIKE IN THE PYTHON
+
+newarr = [1,2,3,4,55,5,6]
+
+iterate = map(lambda a : {str(a) :a + 2} , newarr)
+iterate = map(lambda x: {str(x[1]): x[1] + 2, "index": x[0]}, enumerate(newarr))
+
+print(list(iterate))

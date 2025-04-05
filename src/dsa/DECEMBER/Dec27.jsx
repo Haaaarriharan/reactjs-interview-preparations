@@ -20,6 +20,7 @@ function Dec27() {
   const calculateResult = () => {
     try {
       // Evaluate the expression safely
+      // eval is a js expression that is used to build the calculater fuctionalties in the  js
       const result = eval(first); // Note: Avoid eval in production; use a safer math library like math.js.
       setfirst(result.toString());
     } catch (error) {

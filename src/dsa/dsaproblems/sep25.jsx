@@ -9,7 +9,7 @@ function sep25() {
     }
 
     if (value > arr[findInd]) {
-      //When a recursive function calls itself, you need to return the//result of that call so it can "bubble up" through the chain of recursive calls and reach the original caller.
+      // When a recursive function calls itself, you need to return the//result of that call so it can "bubble up" through the chain of recursive calls and reach the original caller.
       return binarySearchAlgorithrm(
         newArr,
         newArr.indexOf(arr[findInd + 1]),

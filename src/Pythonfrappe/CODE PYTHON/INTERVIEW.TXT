@@ -1,0 +1,97 @@
+THIS LINK WHICH CONTAINS IMPORT PYTHON TOPICS
+
+https://docs.google.com/document/d/1pJaR3dDKjz5miB3AhiCr3W8NYeBAe8wnQDn2FVprMGo/edit?tab=t.0
+
+* PYHTON IS A DYNAMICALLY TYPEDD LANGUAGE
+
+MULTIPLE ASSIGNMENT IS POSSIBLE IN THE PYTHON  : 
+
+n,m,o = 1,"ok",None
+
+not possible n++
+
+INDENTATION:
+SPACE CORRECTION IN THE PROGRAM WHICH IS CALLED INDENTATION
+
+# Correct indentation
+if True:
+    print("This is properly indented.")  # Inside the if block
+print("This is outside the if block.")  # Outside the if block
+
+
+if, elif , else
+
+
+ITERATING THE VALUES USING THE INDEX :******************************
+
+ARGUMENTS FOR THE RANGE IS 
+  range(start, stop, step)
+
+def pythonFunction():
+    arr = ["pooda" , "hari" , "namatha"]
+    for i in range(len(arr)):
+        print("arr[i] checking with a python functions here", arr[i])
+print("Try programiz.pro" , pythonFunction())
+
+DIVIDE WILL GIVES THE - QUOTIENT
+% WILL GIVES THE - REMAINDER
+
+
+SLICING will be easy in the python
+
+def pythonFunction():
+    arr = ["pooda" , "hari" , "namatha", "BILLARAM"]
+    # start:stop:step ****************************************************************
+    print("checking" , arr[2:3])
+    print("print the full values", arr[0:5])
+print("Try programiz.pro" , pythonFunction())
+
+# ENUMERATE 
+
+def pythonFunction():
+    arr = ["pooda" , "hari" , "namatha", "BILLARAM"]
+    for i,j in enumerate(arr):
+        print("checcking the values" , i , j)
+    
+print("Try programiz.pro" , pythonFunction())
+
+# ZIP 
+def pythonFunction():
+    arr = ["pooda" , "hari" , "namatha", "BILLARAM"]
+    arr1 = ["1" , "2" , "3"]
+    for i,j in zip(arr, arr1):
+        print("checcking the values" , i , j)
+    
+print("Try programiz.pro" , pythonFunction())
+
+
+
+# LIST COMPREHENSION 
+def pythonFunction():
+    arr = ["pooda" , "hari" , "namatha", "BILLARAM"]
+    PRINTO = [arr[i]+" wokala oli" for i in range(len(arr))]
+    
+    
+    # 2 D array here
+    PRINTO1 = [[0] * 4 for i in range(4)]
+    return PRINTO1
+    
+print("Try programiz.pro" , pythonFunction())
+
+# STRING SLICING ALSO WE CAAN USE THIS
+
+word = "abcde"
+print("s", word[2:4]) # cd
+
+
+# NESTED FUNCTION HAVE ACCESS TO THE OUTER FUNCTION VARIABLES
+def newFn(a,b):
+    c=2
+    def pooda():
+        return a+b+c
+    return pooda()
+    
+print("checking" , newFn(2,4))
+
+# TERNARY CONDITIONAL OPERATORS
+"dmdQuality": clarity.replace(" ", "") if clarity else ""

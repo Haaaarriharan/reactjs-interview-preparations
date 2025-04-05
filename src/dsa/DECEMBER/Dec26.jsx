@@ -21,7 +21,7 @@ function Dec26() {
   // MAIN POINT USE REF IS THE BETTER WAY TO BUILD THE STOP WATCH
 
   // datastuctures
-  //Arr
+  //Array , string , stack , queue and linked list 
 
   const timer = useRef();
   const [time, settime] = useState({
