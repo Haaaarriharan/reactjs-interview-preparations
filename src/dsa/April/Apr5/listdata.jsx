@@ -14,9 +14,9 @@ function Listdata({setArrayValues, setarr}) {
                     margin:"3px", padding:"5px", border:"1px solid black",
                     display:"flex", justifyContent:"center", flexDirection:"column", alignItems:"center"
                 }}>
-                    <h3>{s.excersise_name}</h3>
-                    <h3>{s.calories_burned}</h3>
-                    <h3>{s.step_count}</h3>
+                    <h3>Name : {s.excersise_name}</h3>
+                    <h3>No of Calories Burned : {s.calories_burned}</h3>
+                    <h3>No of Steps : {s.step_count}</h3>
         
                 </div>
             )

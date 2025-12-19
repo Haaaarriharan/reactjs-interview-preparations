@@ -27,8 +27,8 @@ function Nov6() {
   function doupliacteCheck() {
     let arr = [
       { name: "gar" },
-      { name: "hari" },
-      { name: "haran" },
+      { name: "car" },
+      { name: "van" },
       { name: "gar" },
     ];
     let newArr = [];

@@ -16,9 +16,9 @@ function feb6() {
 //     Uses of the <figure> Tag in HTML
 // The <figure> tag in HTML is used to group media content like images, illustrations, diagrams, code snippets, or videos, along with an optional <figcaption> (caption).
 
-
-// in default the css position will be static
     
+// in default the css position will be static
+
   return (
     <div>feb6</div>
   )
